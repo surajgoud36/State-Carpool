@@ -1,0 +1,89 @@
+.subscriptionContainer {
+  padding: 20px;
+
+}
+
+.formCard {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+}
+
+.UPtopnav h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.routeMapDetails {
+  margin-bottom: 30px;
+
+}
+.tableSpacing {
+  margin-bottom: 10px;
+  /* Reduced the spacing between elements */
+
+}
+.tablesContainer {
+  margin-top: 20px;
+
+}
+.routeMapImage {
+  width: 100%; /* Ensure responsiveness */
+  max-width: 500px; /* Increase the maximum width */
+  display: block;
+  margin-left: auto; /* Center the image horizontally */
+  margin-right: auto;
+  margin-top: 20px; /* Add some spacing above the image */
+}
+
+.routeImageCol {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.routeMapImage {
+  max-width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+.largeImage {
+  width: 100%;
+  max-width: 1900px; /* Adjust size as needed */
+  height: auto;
+}
+
+h2 {
+
+  margin-bottom: 15px;
+  color: #333;
+  font-weight: 600;
+
+}
+
+.numpassenger {
+ margin-left: 37%;
+
+}
+
+
+.destination{
+  margin-left: 37%;
+}
+
+h3 {
+  margin-bottom: 15px;
+
+}
+.tableHead {
+  background-color: #746f6f72;
+  color: #fff;
+
+}
+.tableContainer {
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+
+}

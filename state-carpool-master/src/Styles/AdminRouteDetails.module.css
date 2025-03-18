@@ -1,0 +1,39 @@
+/* AdminRouteDetails.module.css */
+
+.routeDetailsHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.routeDetailsTitle {
+  text-align: center;
+}
+
+.card {
+  border: 2px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 2rem;
+}
+
+.cardImage {
+  width: 90%;
+  height: auto;
+}
+
+.cardHeader {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.tableContainer {
+  margin-top: 2rem;
+}
+
+.tableTitle {
+  font-weight: bold;
+  margin-bottom: 10px;
+}

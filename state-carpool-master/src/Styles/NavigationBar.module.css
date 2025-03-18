@@ -1,0 +1,30 @@
+.Navbar {
+    position: sticky;
+    top: 0;
+    min-height: 2.5vmax;
+    background-color: #ededed;
+    padding: 0;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+.NavbarBrand {
+    margin: 0;
+    position: absolute;
+    top: 0;
+    left: 1vmax;
+    height: auto;
+    max-width: 4%;
+}
+
+.Logo {
+    height: auto;
+    max-width: 100%;
+}
+
+.NavbarLinks {
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+}
+

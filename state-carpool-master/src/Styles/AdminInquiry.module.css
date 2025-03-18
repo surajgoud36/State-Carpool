@@ -1,0 +1,59 @@
+.inquiriesSidebar {
+  background-color: #fff;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.inquiriesList .inquiryCard {
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.inquiriesList .inquiryCard:hover {
+  background-color: #f1f1f1;
+}
+
+.inquiryAvatar {
+  font-size: 20px;
+  color: #007bff;
+}
+
+.inquiriesList p {
+  font-size: 14px;
+}
+
+.inquiriesList .inquiryCard .d-flex {
+  align-items: center;
+}
+
+.inquiriesList h6 {
+  font-size: 16px;
+}
+
+.inquiriesList strong {
+  font-size: 16px;
+}
+
+.pageContainer .card {
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pageContainer .formControl {
+  border-radius: 5px;
+}
+
+.pageContainer .btn {
+  width: 100%;
+}
+
+.pageContainer h4 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.pageContainer h5 {
+  font-size: 16px;
+}

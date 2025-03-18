@@ -1,0 +1,11 @@
+.EditButton:hover {
+    color: black !important;
+}
+
+.DeleteButton:hover {
+    color: black !important;
+}
+
+.DeleteButton:active {
+    color: red !important;
+}

@@ -1,0 +1,10 @@
+.CloseButton {
+    font-size: "2rem";
+    color: #cccccc;
+    position: absolute;
+    right: 2vmax;
+}
+
+.CloseButton:hover, .CloseButton:active {
+    color: black;
+}

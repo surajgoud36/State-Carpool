@@ -1,0 +1,28 @@
+.container {
+margin-top: 20px;
+}
+.headerRow {
+ margin-bottom: 20px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+.table {
+ margin-top: 20px;
+}
+.imagePreview {
+ width: 100px;
+ margin-top: 10px;
+}
+.tableImage {
+ width: 100px;
+ border-radius: 5px;
+}
+.actionButtons button {
+ margin-right: 5px;
+}
+.modalForm {
+ display: flex;
+ flex-direction: column;
+ gap: 15px;
+}

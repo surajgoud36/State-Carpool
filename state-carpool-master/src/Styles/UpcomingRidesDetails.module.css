@@ -1,0 +1,157 @@
+.detailsSection {
+  height: auto; /* Adjust height to fit the new content dynamically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column; /* Stack elements vertically */
+  padding: 20px;
+  background-color: #f5f5f5; /* Light background for contrast */
+ }
+ 
+ .card1 {
+  width: 100%; /* Adjust width to fit new content */
+  max-width: 1000px;
+  background-color: rgba(255, 255, 255, 0.9);
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  padding: 50px 25px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px auto; /* Center with margin */
+ }
+ 
+ .card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 20px; /* Add spacing between elements */
+ }
+ 
+ .leftContainer {
+  flex: 1;
+  max-width: 20%; /* Increased width for consistency */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+ }
+ 
+ .rightContainer {
+  flex: 3; /* Increased flex for more space */
+  padding: 20px;
+ }
+ 
+ .destinationImage {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+ }
+ h1 {
+  text-align: center;
+ }
+ 
+ h2 {
+  font-size: 24px; /* Slightly larger for emphasis */
+  color: #333;
+  margin-bottom: 15px;
+  text-align: center;
+ }
+ 
+ h3 {
+  font-size: 20px;
+  color: #555;
+  margin-bottom: 20px;
+ }
+ 
+ .gradientText {
+  background-image: linear-gradient(to right, #000000 0%, #000306 100%);
+  background-clip: text;
+  color: transparent;
+  text-align: center;
+  font-size: 22px;
+ }
+ 
+ .detailsTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0; /* Add spacing around tables */
+ }
+ 
+ .detailsTable td,
+ .detailsTable th {
+  padding: 12px;
+  font-size: 16px;
+  color: #444;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+ }
+ 
+ .detailsTable th {
+  font-weight: bold;
+  background-color: #f0f0f0; /* Light background for headers */
+ }
+ 
+ .detailsTable td:first-child {
+  font-weight: bold;
+  text-align: right;
+  padding-right: 15px;
+ }
+ 
+ .detailsTable td:last-child {
+  text-align: left;
+ }
+ 
+ .noRide {
+  font-size: 18px;
+  color: #888;
+  text-align: center;
+  margin-top: 20px;
+ }
+ 
+ .tableContainer {
+  margin: 10px 0; /* Add margin between tables */
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for better visibility */
+ }
+ 
+ .tableHead {
+  background-color: #bdb5b5; /* Dark gradient background */
+  color: #fff; /* White text for contrast */
+  text-align: left;
+ }
+ 
+ .tableSpacing {
+  margin-top: 15px;
+ }
+ 
+ .tablesContainer {
+  margin-top: 10px;
+  width: 100%;
+  height: 100%;
+ }
+ 
+ .routeImageCol {
+  text-align: center;
+ }
+ 
+ .routeMapImage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+ }
+ 
+ .subscriptionContainer {
+  padding: 5px;
+  background-color: #f9f9f9;
+  width: 100%;
+  height: 100%;
+ }
+
+.tableSpacing p{
+  margin-left: 100px;
+}

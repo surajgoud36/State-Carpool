@@ -1,0 +1,32 @@
+.Col2{
+    direction: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.icon-margin {
+    margin-left: 10px; /* Adjust the value as needed */
+    font-size: 2rem; 
+}
+
+.small-button {
+    padding: 0.25rem 0.5rem; /* Adjust padding as needed */
+    font-size: 0.75rem; /* Adjust font size as needed */
+}
+
+.line {
+    border-top: 1px solid #000; /* Change color and thickness as needed */
+    margin: 1px auto; /* Adjust spacing as needed */
+    width: 75%; /* Adjust the width as needed */
+}
+
+.image{
+    width: 250px;
+    height: 250px;
+
+}
+
+.container{
+    margin-top: 50px;
+}

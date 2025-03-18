@@ -1,0 +1,76 @@
+/* Ride item container */
+.rideItem {
+  display: flex;
+  align-items: flex-start;
+  padding: 15px;
+  background-color:#fff;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  transition: box-shadow 0.3s ease;
+  cursor: pointer;
+  width: 55%;
+  max-width: 800px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.headTitle {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  padding: 15px;
+}
+.upRide {
+  font-size: 24px;
+  margin: 0;
+}
+
+
+
+.rideItem:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Title and Image Section */
+.titleSection {
+  text-align: left;
+}
+
+
+
+.titleSection h1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-bottom: 10px;
+  margin-left: 35px;
+}
+
+
+
+.titleSection img {
+  width: 100%;
+  height: auto;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+
+
+/* Ride details section */
+.rideDetails {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 60px;
+}
+
+
+
+.rideDetails p {
+  margin: 5px 0;
+  font-size: 1.3em;
+  color: #555;
+}
+

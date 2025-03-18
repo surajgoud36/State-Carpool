@@ -1,0 +1,17 @@
+.Container {
+    border: 1px solid red;
+}
+.Title {
+    text-align: center;
+    font-size: var(--title_size);
+    margin-top: 3vmax;
+    margin-bottom: 3vmax;
+}
+
+.FilterSelect {
+    position: absolute;
+    right: 1vmax;
+    bottom: 0;
+    width: 15%;
+    border-radius: 0;
+}
